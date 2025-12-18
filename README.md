@@ -283,9 +283,9 @@ python -m src.evaluation
 ```
 shl/
 │
-├── app.py                     # frontend
+├── app.py                 
 ├── api/
-│   └── main.py                # backend
+│   └── main.py             
 ├── src/
 │   ├── embedding_recommender.py
 │   ├── preprocess.py
@@ -296,10 +296,3 @@ shl/
 ├── requirements.txt
 ├── README.md
 ```
-
-
-* ✔ Write the **2-page PDF explanation**
-* ✔ Review your **API + Streamlit code**
-* ✔ Help you **deploy to Streamlit Cloud / Render**
-
-You are **very close to final SHL submission** 🚀
