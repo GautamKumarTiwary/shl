@@ -283,9 +283,9 @@ python -m src.evaluation
 ```
 shl/
 │
-├── app.py                     # frontend
+├── app.py                 
 ├── api/
-│   └── main.py                # backend
+│   └── main.py             
 ├── src/
 │   ├── embedding_recommender.py
 │   ├── preprocess.py
