@@ -17,7 +17,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 def preprocess(df):
     df["combined_text"] = (
         df["skills_tested"] + " " +
-        df["skills_tested"] + " " +   # weight skills
+        df["skills_tested"] + " " +  
         df["assessment_name"] + " " +
         df["category"] + " " +
         df["job_level"]

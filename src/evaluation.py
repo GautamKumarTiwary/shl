@@ -13,7 +13,6 @@ def evaluate(sheet_name):
     print(f"\nEvaluating on sheet: {sheet_name}")
     print("Columns:", list(df.columns))
 
-    # If no ground truth → skip evaluation
     if "Assessment_url" not in df.columns:
         print("No ground-truth labels available. Skipping Recall@10.")
         return
@@ -32,5 +31,5 @@ def evaluate(sheet_name):
     print(f"Average Recall@10 ({sheet_name}):", sum(recalls) / len(recalls))
 
 if __name__ == "__main__":
-    evaluate("Train-Set")   # evaluation
-    evaluate("Test-Set")    # inference only
+    evaluate("Train-Set")  
+    evaluate("Test-Set")  
